@@ -10,7 +10,7 @@ Autofill data for mybenefits using selenium webdriver
 
 * [Eclipse IDE](https://www.eclipse.org/downloads/)
 * [Java](https://www.java.com/en/)
-* Download Excel file "mybenefits_data.xls" from releases in GitHub - To read Java from Excel data.
+* [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel)
 * [Git Version-Control](https://git-scm.com/) - To use git CLI commands (Personally, I prefer to use this instead of EGit from Eclipse)
 
 ## Getting Started
@@ -34,8 +34,7 @@ Autofill data for mybenefits using selenium webdriver
 
 8. then redirect to `\autofill-mybenefits-java\src\test\java\test_case\Setup_Data_Demo.java`, then change code in line 33 to your saved location of excel file
 
-9. Finally, redirect to `\autofill-mybenefits-java\src\test\java\test_case\` and right click `Setup_Data_Demo.java` then run and enjoy automating filling data that's reading from excel file(you can change data only in orange column
-![Setting UTF-8](./assets_demo/autofill-mybenefits-demo.gif)
+9. Finally, redirect to `\autofill-mybenefits-java\src\test\java\test_case\` and right click `Setup_Data_Demo.java` then run and enjoy automating fill in data that read from excel file (you can change data only in orange column D2 to D25 from title "Value")
 
 
 > NOTE: If for some reason Eclipse unable to run/debug `Setup_Data_Demo.java` or giving different errors, end all duplicates if found chromedriver.exe from Task Manager (Windows)
